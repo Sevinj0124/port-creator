@@ -55,9 +55,11 @@ color: var(--orange);
 .project-card {
     width: 486px;
     margin-top: 20px;
+    
 }
 .project-card > img {
     width: 80%;
+    /* height: 468px !important; */
 }
 
 @media(min-width:768px) {
