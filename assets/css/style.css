@@ -1,0 +1,53 @@
+/* Mobile first */
+
+.nav-links {
+    display: none !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    text-decoration: none !important;
+}
+:root {
+    --orange:#FF8A56;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-left-side h1{
+    font-size: 34px;
+}
+
+.intro-left-side h1 span {
+color: var(--orange);
+}
+
+
+@media(min-width:768px) {
+    .nav-links {
+        display: flex !important;
+    }
+     
+    .fa-bars {
+        display: none;
+    }
+    .intro-left-side h1 {
+        font-size: 40px;
+    }
+    .intro-left-side{
+        padding-top: 52px;
+    }
+}
+
+
+
+@media(min-width:992px) {
+    .intro-left-side h1 {
+        font-size: 70px;
+    }
+    
+    .intro-left-side{
+        padding-top: 92px;
+    }
+}
